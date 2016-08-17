@@ -54,7 +54,7 @@
 					<source>1.8</source>
 					<useArc>true</useArc>
 					<noPackageDirectories>true</noPackageDirectories>
-					<packagePrefixedFilenames>true</packagePrefixedFilenames>
+<!--					<packagePrefixedFilenames>true</packagePrefixedFilenames> -->
 					<d>${project.build.directory}/wire-runtime-j2objc</d>
 				</configuration>
 				<executions>
