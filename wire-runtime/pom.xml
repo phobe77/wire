@@ -50,11 +50,10 @@
 				<configuration>
 					<j2objcPath>/Users/michel/src/qjam/project-task/src/contrib/j2objc/j2objc</j2objcPath>
 					<swiftFriendly>true</swiftFriendly>
-					<batchTranslateMax>1</batchTranslateMax>
 					<source>1.8</source>
 					<useArc>true</useArc>
 					<noPackageDirectories>true</noPackageDirectories>
-<!--					<packagePrefixedFilenames>true</packagePrefixedFilenames> -->
+					<packagePrefixedFilenames>true</packagePrefixedFilenames> 
 					<d>${project.build.directory}/wire-runtime-j2objc</d>
 				</configuration>
 				<executions>
